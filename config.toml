@@ -1,0 +1,119 @@
+baseurl = ""
+DefaultContentLanguage = "en"
+title = "Learn Tech"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+homeTitle = "អត្ថបទ" # Set a different text for the header on the home page
+  subtitle = "Build a beautiful and simple website in minutes"
+  mainSections = ["post","posts"]
+  logo = "img/circle.jpg" # Expecting square dimensions
+  favicon = "img/circle.jpg"
+  dateFormat = "January 2, 2006"
+  commit = false
+  #rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "ថា សុជាតិ / Tha Socheat"
+  website = "yourwebsite.com"
+  email = "thasocheat167@gmail.com"
+  facebook = "https://www.facebook.com/profile.php?id=100012747163486"
+  github = "username"
+  gitlab = "username"
+  youtube = "https://www.youtube.com/@-learntechnology3197" # or channel/channelname
+  telegram = "Tha Socheat"
+  #codepen = "username"
+
+  #bitbucket = "username"
+  #twitter = "username"
+  #reddit = "username"
+  #linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #500px = "username"
+  #mastodon = "url"
+  #kaggle = "username"
+  #weibo = "username"
+  #slack = "username"
+  #discord = "invite code (https://discord.gg/XXXXXXX)"
+  #strava = "userid"
+
+[[menu.main]]
+    name = "ទំព័រដើម"
+    url = "page/home/"
+    weight = 1
+[[menu.main]]
+    name = "អត្ថបទ"
+    url = ""
+    weight = 2
+
+[[menu.main]]
+    name = "អំពីយើង"
+    url = "page/about/"
+    weight = 3
+
+#[[menu.main]]
+    #identifier = "samples"
+    #name = "Samples"
+    #weight = 2
+
+#[[menu.main]]
+    #parent = "samples"
+    #name = "Big Image Sample"
+    #url = "post/2017-03-07-bigimg-sample"
+    #weight = 1
+
+#[[menu.main]]
+    #parent = "samples"
+    #name = "Math Sample"
+    #url = "post/2017-03-05-math-sample"
+    #weight = 2
+
+#[[menu.main]]
+    #parent = "samples"
+    #name = "Code Sample"
+    #url = "post/2016-03-08-code-sample"
+    #weight = 3
+
+[[menu.main]]
+    name = "ប្រភេទអត្ថបទ"
+    url = "tags"
+    weight = 4
