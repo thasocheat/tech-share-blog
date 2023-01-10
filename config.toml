@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://github.com/thasocheat/tech-share-blog"
 DefaultContentLanguage = "en"
 title = "Learn Tech"
 theme = "beautifulhugo"
